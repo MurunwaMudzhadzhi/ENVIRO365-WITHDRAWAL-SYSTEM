@@ -12,7 +12,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/investors")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000", "https://enviro365-withdrawal-system-1.onrender.com"})
 public class PortfolioController {
 
     private final PortfolioService portfolioService;
