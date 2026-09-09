@@ -101,4 +101,10 @@ AI assistance (Claude) was used to scaffold this solution end-to-end — entity/
 
 ## Screenshots
 
-_Add screenshots of the running dashboard, withdrawal form, and history table here before submitting._
+| Portfolio Dashboard & Withdrawal Form | Successful Withdrawal (90% boundary) |
+|---|---|
+| ![Dashboard](screenshots/01-portfolio-dashboard-and-withdrawal-form.png) | ![Success](screenshots/02-withdrawal-success-90-percent-boundary.png) |
+
+| Age-65 Rule Rejection | Withdrawal History |
+|---|---|
+| ![Rejection](screenshots/03-age-rule-rejection.png) | ![History](screenshots/04-withdrawal-history-table.png) |
