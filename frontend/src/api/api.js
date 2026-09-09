@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const client = axios.create({
-  baseURL: 'http://localhost:8080/api',
+    baseURL: 'https://enviro365-withdrawal-system.onrender.com/api',
 })
 
 export const getInvestors = () => client.get('/investors').then(r => r.data)
